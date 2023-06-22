@@ -2,6 +2,7 @@
     width: 100vw; /* Sets the width to 100% of the viewport */
     height: 100vh; /* Sets the height to 100% of the viewport */
     display: flex; /* Displays the child elements side by side */
+    flex-wrap: wrap;
 }
 
 .side {

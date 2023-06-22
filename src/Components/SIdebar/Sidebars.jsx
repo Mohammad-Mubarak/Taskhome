@@ -16,15 +16,15 @@ function Sidebars() {
                     <div className="option-one">Add Task <BiTask/></div>
                 </NavLink>
                 <NavLink to="/onhold">
-                    <div className="option-two">TODO <RiCalendarTodoFill/></div>
+                    <div className="option-two">HOLD <RiCalendarTodoFill/></div>
                 </NavLink>
                 <NavLink to="/ongoing">
                     <div className="option-three">GOING <GrInProgress/></div>
 
                 </NavLink>
-                <NavLink to="/task">
+                <NavLink to="/todo">
 
-                    <div className="option-four">HOLD <FaHandHolding/></div>
+                    <div className="option-four">TODO <FaHandHolding/></div>
                 </NavLink>
                 <NavLink to="/completed">
                     <div className="option-five" style={{fontSize:"15px" , color:"green"}}>Completed <IoMdDoneAll/></div>
